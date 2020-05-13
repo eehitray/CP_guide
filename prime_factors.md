@@ -1,3 +1,6 @@
+# Math
+* Every composite number has at least 1 prime factor.
+
 # Sieve of Eratosthenes
 * Complexity: O(n loglogn)
 
