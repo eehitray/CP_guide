@@ -1,5 +1,6 @@
 # Sieve of Eratosthenes
 * Complexity: O(n loglogn)
+
 Code:
 ```c++
 vector<bool> primes(n); //primes[k] stores if k is NOT prime. defaults to false
@@ -14,6 +15,7 @@ for (int i = 2; i < n; i++) {
 
 # Prime Factorization
 * Complexity O(n loglogn logn) (I think)
+
 Code:
 ```c++
 //Modified Sieve of Eratosthenes
