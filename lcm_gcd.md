@@ -35,7 +35,8 @@ The GCD is thus: ```2^1 x 3^0 x 5^0 x 11^0```.
 ll gcd(ll a, ll b) {
 	if (a == 0) return b;
 	return gcd(b % a, a);
-}```
+}
+```
 
 # Extended Euclidean Algorithm
 * Finds the GCD of two numbers a and b, as well as Bezout coefficients x and y such that ax + by = GCD(a, b).
